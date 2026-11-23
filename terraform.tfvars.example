@@ -1,0 +1,7 @@
+region              = "eu-central-1"
+name                = "live-demo"
+ingest_mode         = "flow"            # or "router"
+channel_class       = "SINGLE_PIPELINE" # "STANDARD" for production
+allowed_source_cidr = "203.0.113.10/32" # your encoder's public IP
+# srt_passphrase_secret_arn = "arn:aws:secretsmanager:eu-central-1:111122223333:secret:srt-pass-AbCdEf"
+# alert_email               = "ops@example.com"
